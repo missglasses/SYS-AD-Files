@@ -1,0 +1,23 @@
+Select a VM >
+File > Host Network Manager > Create
+
+Enable DHCP > 
+> Edit IP and others > Apply > Close
+
+2. Connect VMs 
+
+For each VM: Settings > Network
+
+Adapter 1: Enable >Adapter 2: Host-Only Adapter > Apply the same settings w/adapter 1
+OK
+
+3. Test
+
+Start both VMs.
+
+In each, run: ipconfig
+
+They get IPs like 192.168.56.101 & 192.168.56.102.
+
+// ? Ping each other: ping <other-VM-IP>
+
