@@ -13,22 +13,33 @@
 - Network Connection  
 - Power Supply  
 
-
-
 ## Server Environment
 - Installed in an **exclusive environment** like a server room.  
 - Requires **air conditioning** to maintain temperature.  
 - Placed on **server racks** that can stack multiple servers.  
 
+## Redundancy & Reliability
+- Servers should be **redundant** in case one fails.  
+- Hardware redundancy includes:  
+  - **Hot-swappable hard drives** in **RAID configuration**  
+    - **RAID** (Redundant Array of Independent Disks): combines multiple drives for **fault tolerance** and/or **performance**.  
+    - Example: RAID 1 mirrors data across two drives; RAID 5 uses striping + parity.  
+  - **Redundant Fiber Channel Adapters** – ensures continuous network access.  
+  - **Redundant Power Supplies** – prevents downtime in case one PSU fails.  
+- To **avoid data loss** and maintain high availability.  
 
-
-## How It Works (Request–Response Model)
+## How Server Works (Request–Response Model)
 1. Client sends a **request** via the network.  
 2. Server **receives** the request.  
 3. Server **processes** the request and provides the information.  
 4. Server ensures the client is **authenticated** before access.
    
 ```Browser → DNS(with IP) → Browser(URL & IP) → Web Server → Browser```
+
+## Architectures
+- **Client–Server Model** – clients request services, servers respond.  
+- **Cloud Server Hosting** – multiple servers provide resources across distributed data centers.  
+- Servers use **OS designed to handle thousands of connections** efficiently.  
 
 
 ## Real-Life Examples & Types of Servers
@@ -72,9 +83,21 @@
 - **Virtual Server** – Simulated server environment on physical hardware.  
   *Example:* An IT team runs multiple virtual servers on one physical machine to test different software.  
 
+## ☁️ Cloud Providers
+Major cloud platforms that offer server hosting and management:  
+- **Azure (Microsoft)**  
+- **AWS (Amazon Web Services)**  
+- **GCP (Google Cloud Platform)**  
 
-## 🖥️ Server Operating Systems (OS)
- Designed for managing servers:  
+### Cloud Services
+- **Sharing resources** among multiple clients.  
+- **Data storage** for global access.  
+- **Performing computations** for clients (e.g., AI, analytics, apps).  
+- **Scalable infrastructure** – handle thousands of requests dynamically.  
+
+
+## Server Operating Systems (OS)
+Specialized OS designed for managing servers and heavy workloads:    
 - Windows Server  
 - Linux (Ubuntu Server, CentOS, Red Hat)  
 - Unix-based systems  
