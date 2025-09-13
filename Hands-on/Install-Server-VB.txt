@@ -1,0 +1,59 @@
+1. Download Files
+
+VirtualBox: Get from virtualbox.org -> Download for Windows hosts.
+
+Windows Server 2016 ISO: Get from microsoft.com/evalcenter -> Evaluate Windows Server 2016 -> Select Language -> Download.
+
+2. Create New VM
+
+Open VirtualBox -> Click "New".
+
+Name: Windows Server 2016
+
+ISO Image: (Browse and select the downloaded file)
+
+Version: Windows 2016 (64-bit) -> Next.
+
+Memory Size: Set to 2048 MB (2 GB) -> Next.
+
+Hard Disk: Select "Create a virtual hard disk now" -> Create.
+
+Hard Disk Type: Keep VDI -> Next.
+
+Storage: Keep Dynamically allocated -> Next.
+
+Disk Size: Set to 40.00 GB -> Create.
+
+3. Install OS
+
+Select the new VM -> Click "Start".
+
+Wait for installer to load.
+
+Click "Install Now".
+
+Select OS: Windows Server 2016 Standard (Desktop Experience).
+
+Accept license -> Next.
+
+Choose installation type: Custom: Install Windows only.
+
+Select the drive (Unallocated Space) -> Next.
+
+Wait for installation to finish. It will reboot automatically.
+
+4. Set Admin Password
+
+After install, a prompt will say to change the password. Click OK.
+
+New password: Enter a strong password (e.g., Server2016! or MyVM@Password123).
+
+Confirm password: Enter it again.
+
+Click OK (after password is changed).
+
+To log in: Press Right Ctrl + Del (or use the menu: Input -> Keyboard -> Insert Ctrl+Alt+Del).
+
+Click the Administrator icon and enter your password.
+
+Done. You are now logged in.
