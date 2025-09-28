@@ -13,10 +13,10 @@
 
 ### Configure Server Network
 - Inside **Windows Server 2016**:
-  - Assign a **static IP**: `192.168.10.1`
+  - Assign a **static IP**: `192.....10.1`
   - Subnet mask: `255.255.255.0`
-  - Default gateway: `192.168.10.1`
-  - Preferred DNS: `192.168.10.1`
+  - Default gateway: `192.....10.1`
+  - Preferred DNS: `192.....10.1`
 
 ---
 
@@ -31,14 +31,14 @@
 
 ### Configure Client Network
 - Inside **Windows 10 client**:
-  - Assign a **static IP**: `192.168.10.2`
+  - Assign a **static IP**: `192.....10.2`
   - Subnet mask: `255.255.255.0`
-  - Default gateway: `192.168.10.1`
-  - Preferred DNS: `192.168.10.1`
+  - Default gateway: `192.....10.1`
+  - Preferred DNS: `192.....10.1`
 
 ---
 
 ## 3. Test Connectivity
 - From the **client VM**, open **Command Prompt** and run:
   ```bash
-  ping 192.168.10.1
+  ping 192.....10.1
