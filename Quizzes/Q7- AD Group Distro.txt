@@ -1,30 +1,30 @@
-#1 Which of the following is an Active Directory container for organizing users, computers, and other objects?
-Correct Answer: Organizational Unit (OU)
+#1 What is the primary protocol used by Active Directory for querying and modifying directory information?
+Correct Answer: LDAP (Lightweight Directory Access Protocol)
 
-#2 What protocol does Active Directory primarily use to access directory information and services?
-Correct Answer: LDAP
+#2 Which protocol is the default and most secure authentication method used by Active Directory, relying on tickets for user authentication?
+Correct Answer: Kerberos
 
-#3 What is the function of the Server Message Block (SMB) protocol in a Windows network?
-Correct Answer: It allows clients to access shared files, printers, and other resources on a remote server.
+#3 What older authentication protocol is used in Active Directory as a fallback for compatibility or when Kerberos is unavailable?
+Correct Answer: NTLM (NT LAN Manager)
 
-#4 What is a Group Policy (GPO)?
-Correct Answer: A set of rules and configurations applied to users and computers in an Active Directory domain.
+#4 Trust relationships between all domains in a forest are one-way, non-transitive trusts.
+Correct Answer: False
 
-#5 Which of the following is a core component of the physical structure of Active Directory?
-Correct Answer: Sites
+#5 Which type of group scope can grant permissions to objects in any domain within the same forest?
+Correct Answer: Universal group
 
-#6 What is a Global Catalog (GC) server's main purpose?
-Correct Answer: To store only the most commonly accessed object attributes to facilitate faster searches for objects and logons across domains.
+#6 __________Policy is one of the most powerful administrative features of Active Directory.
+Correct Answer: Group Policy
 
-#7 What does an SMB share with a dollar sign ($) typically represent?
-Correct Answer: A hidden share used for administrative purposes or specific access.
+#7 The primary difference between global and universal groups is that universal groups add more data to the global catalog, thereby increasing the amount of _______traffic between sites.
+Correct Answer: replication
 
-#8 Which port does LDAP use for directory service queries?
-Correct Answer: 389
+#8 Which group is used for nonsecurity-related functions, such as sending email messages to a collection of users?
+Correct Answer: Distribution group
 
-#9 What is the default container where new user accounts are created in AD?
-Correct Answer: Users
+#9 What is the name of the Microsoft Management Console (MMC) snap-in that you use to perform disk-related tasks?
+Correct Answer: Disk Management
 
-#10 An Active Directory domain controller can verify a user's identity by which of the following methods?
-Correct Answer: smart cards, passwords, biometrics
+#10 A(n) _________ object is one that can have other objects subordinate to it.
+Correct Answer: container
 
