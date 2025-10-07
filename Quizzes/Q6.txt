@@ -1,1 +1,31 @@
+#1 What is the purpose of Flexible Single Master Operations (FSMO) roles?
+Correct Answer: To define specific domain controllers that are responsible for handling critical, single-master operations to prevent conflicts.
+
+#2 Which of the following are forest-wide FSMO roles?
+Correct Answer: Schema Master, Domain Naming Master
+
+#3 What does the Schema Master FSMO role do?
+Correct Answer: Manages the schema for the entire forest.
+
+#4 A user is complaining about slow login times in a multi-domain forest. Which FSMO role, or related component, is most likely causing this issue, and how can it be addressed?
+Correct Answer: A Global Catalog server; configure a Global Catalog server in the user's site.
+
+#5 A new domain is added to a forest. On which domain controller should the Domain Naming Master FSMO role be located?
+Correct Answer: The domain controller that was originally assigned the Domain Naming Master.
+
+#6 Which of the following is not a function of the global catalog?
+Correct Answer: Facilitates intersite replication.
+
+#7 Which of the following is a reason for establishing multiple sites? (Choose all that applies)
+Correct Answer: Improving authentication efficiency, Reducing traffic on the WAN.
+
+#8 You maintain an RODC running Windows server 2012 R2 at a branch office and you want one employee with solid computer knowledge to perform administrative tasks such as driver and software updates and device management. How can you do this without giving her broader domain rights?
+Correct Answer: Assign the employees account as a delegated administrator in the RODCs computer account settings.
+
+#9 Where would you find files related to logon and logoff scripts in an Active Directory environment?
+Correct Answer: %systemroot%\SYSVOL
+
+#10 What's the term for removing deleted objects in Active Directory?
+Correct Answer: Garbage collection
+
 
