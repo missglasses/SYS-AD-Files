@@ -1,0 +1,29 @@
+#1 Which of the following is an Active Directory container for organizing users, computers, and other objects?
+Correct Answer: Organizational Unit (OU)
+
+#2 What protocol does Active Directory primarily use to access directory information and services?
+Correct Answer: LDAP
+
+#3 What is the function of the Server Message Block (SMB) protocol in a Windows network?
+Correct Answer: It allows clients to access shared files, printers, and other resources on a remote server.
+
+#4 What is a Group Policy (GPO)?
+Correct Answer: A set of rules and configurations applied to users and computers in an Active Directory domain.
+
+#5 Which of the following is a core component of the physical structure of Active Directory?
+Correct Answer: Sites
+
+#6 What is a Global Catalog (GC) server's main purpose?
+Correct Answer: To store only the most commonly accessed object attributes to facilitate faster searches for objects and logons across domains.
+
+#7 What does an SMB share with a dollar sign ($) typically represent?
+Correct Answer: A hidden share used for administrative purposes or specific access.
+
+#8 Which port does LDAP use for directory service queries?
+Correct Answer: 389
+
+#9 What is the default container where new user accounts are created in AD?
+Correct Answer: Users
+
+#10 An Active Directory domain controller can verify a user's identity by which of the following methods?
+Correct Answer: all of the above
